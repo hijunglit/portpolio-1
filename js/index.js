@@ -20,7 +20,7 @@ targets.forEach(el => observer.observe(el));
 
 function changeColor() {
     window.scrollY > 1 ? header.classList.add("scrolled") : header.classList.remove("scrolled"); 
-}
+} 
 
 window.addEventListener("scroll", changeColor);
 
